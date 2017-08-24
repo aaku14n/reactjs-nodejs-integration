@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.PageHeader {
+  background-color: midnightblue;
+  margin-top: -20px;
+  padding-top: 26px;
+  padding-bottom: 5px;
+  color: seashell;
+  font-family: inherit;
+  border-bottom: solid 2px midnightblue;
+}
+.PageContent {
+  background-color: whitesmoke;
+  width: 90%;
+  margin-left: 0%;
+  margin-top: 25px;
+  padding: 30px;
+  display: inline-flex;
+}
+.PageLeft {
+  background-color: white;
+  width: 50%;
+  display: inline-block;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  height: 400px;
+}
+.PageRight {
+  background-color: white;
+  width: 47%;
+  display: inline-block;
+  margin-left: 10px;
+  top: 0;
+}
+.headStyle {
+  font-size: large;
+}
+.ulStyle {
+  width: max-content;
+}
+.cards {
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: left;
+  font-size: smaller;
+  width: 227%;
+  transition: background-color 1s, color 1s;
+  width: 560px;
+  color: slategray;
+}
+.cards:hover {
+  background-color: lightsteelblue;
+  color: unset;
+}
+.cards:hover .icon {
+  display: block;
+}
+.cards:hover .iconright {
+  display: block;
+}
+.icon {
+  display: none;
+  margin-top: -10px;
+  float: right;
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
+}
+.iconright {
+  display: none;
+  margin-top: -8px;
+  float: right;
+  right: 25px;
+  font-size: 30px;
+  color: green;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.titleInput {
+  width: 350px;
+  height: 50px;
+  background-color: palegoldenrod;
+  border: solid 2px lightyellow;
+  border-radius: 10px;
+  color: steelblue;
+  font-family: monospace;
+  font-size: large;
+  padding-left: 10px;
+}
+.descriInput {
+  width: 350px;
+  padding-top: 10px;
+  height: 130px;
+  margin-top: 15px;
+  background-color: palegoldenrod;
+  border: solid 2px lightyellow;
+  border-radius: 10px;
+  color: steelblue;
+  font-family: monospace;
+  font-size: large;
+  padding-left: 10px;
+}
+.saveBtn {
+  margin-top: 10px;
+  width: 150px;
+  font-size: 23px;
+  background-color: midnightblue;
+  color: white;
+  border: solid 2px midnightblue;
+  border-radius: 5px;
+  margin-right: 21px;
+  cursor: pointer;
+  font-family: monospace;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+.saveBtn:hover {
+  background-color: slateblue;
+  border: solid 2px slateblue;
+  color: midnightblue;
+}
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  outline: none;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 0.5px solid slategrey;
+}
+.pageBottom {
+    background-color: midnightblue;
+    color: white;
+    padding: 20px;
+    bottom: 0px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
+.Edittitle,
+.EditDes {
+  border: solid 2px #f1e6c7;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: palegoldenrod;
+  margin-top: 5px;
+}
+#editSave,
+#editReset {
+  width: 70px;
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 25px;
+  background-color: teal;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  color: lightcyan;
+  font-family: monospace;
+  cursor: pointer;
+}
+.showw {
+  display: none;
+}
